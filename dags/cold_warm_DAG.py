@@ -17,7 +17,7 @@ from airflow.operators.python import PythonOperator, BranchPythonOperator
 from airflow.utils.dates import days_ago
 import requests
 
-API_KEY = '28bb22fe4d94d7d3579d1d602e34d8302011'
+API_KEY = 'APY_KEY'
 LOCATION = 'Moscow'
 
 def get_temperature(**context):
